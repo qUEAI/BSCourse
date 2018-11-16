@@ -1,0 +1,172 @@
+@font-face {
+	font-family:lk;
+	src: url('../fonts/lk.eot') format('embedded-opentype'),
+    url('../fonts/lk.svg') format('svg'),
+    url('../fonts/lk.ttf') format('truetype'),
+    url('../fonts/lk.woff') format('woff');
+}
+/*[class^="icon-"],
+[class*=" icon-"]{
+    font-family: lk;
+    font-style: normal;
+}*/
+
+#lk_header .top-bar{
+	height: 40px;
+	line-height: 39px;
+	border-bottom: 1px solid #E0E0E0;
+}
+#lk_header .top-bar a{
+	color: black;
+}
+#lk_header .top-bar .top_bar-1{
+	position: relative;
+}
+#lk_header .top-bar .top_bar-1,.top_bar-2,.top_bar-3{
+	border-right: 1px solid #E0E0E0;
+}
+#lk_header .top-bar .top_bar-1 img{
+	display: none;
+}
+#lk_header .top-bar .top_bar-1:hover img{
+	display: block;
+	position: absolute;
+	margin-top: -10px;
+	left: 50%;
+	margin-left: -60px;
+	z-index: 9999;	
+}
+.glyphicon-earphone,.glyphicon-triangle-bottom,.glyphicon-phone{
+	font-size: 0.5px;
+	color: #C0C0C0;
+}
+/*下部分*/
+.navbar{
+	background-color: white;
+	margin-bottom: 0px;
+}
+.navbar .navbar-header{
+	height: 60px;
+	margin-top: -2px;
+}
+@media screen and (min-width: 100px) and (max-width: 750px) {
+	.navbar-brand img{
+		max-width: 90%;
+	}
+}
+.navbar .container .navbar-header a{
+	padding-top: 10px;
+}
+.navbar .collapse a{
+	height: 70px;
+	line-height: 40px;
+}
+.navbar .collapse a:hover{
+	border-bottom: 2px solid dodgerblue;
+}
+#carousel-example-generic img{
+	height: 410px;
+}
+
+/*关于我们*/
+#lk_about .container .col-md-8{
+	margin-top: 20px;
+}
+#lk_about .container .col-md-8 p{
+	font-size: 15px;
+	line-height: 30px;
+}
+
+/*产品特色*/
+#lk_product{
+	background-color: #f0f0f0;
+	padding: 20px;
+	margin: 50px;
+}
+#lk_product .container .nav a{
+	font-size: 20px;
+	color: #8C8C8C;
+	border: none;
+}
+#lk_product .container .nav .active a{
+	font-size: 22px;
+	background-color: #f0f0f0;
+	color: #080808;
+	border-bottom: 3px solid red;
+}
+#lk_product .margin{
+	margin-top: 50px;
+}
+#lk_product .margins{
+	margin-top: 80px;
+}
+#lk_product .tab-pane .font{
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 20px;
+}
+/*热门课程*/
+#lk_hot {
+	
+}
+#lk_hot .container .lesson{
+	padding-top: 20px;
+}
+#lk_hot .container .lesson .media-left{
+	width: 20%;
+}
+#lk_hot .container .lesson .media-body{
+	width: 60%;
+	padding: 15px;
+}
+#lk_hot .container .lesson .media-right{
+	width: 20%;
+	vertical-align: middle;
+}
+/*友情链接*/
+#lk_link{
+	margin-top: 80px;
+	
+}
+#lk_link .logo{
+	list-style: none;
+	text-align: center;
+}
+#lk_link ul li{
+	display: inline-block;
+	padding: 20px 20px;
+}
+/*底部*/
+#lk_footer{
+	margin-top: 30px;
+	background-color: black;
+}
+#lk_footer .style{
+	margin-top: 30px;
+	list-style: none;
+	padding: 0px;
+	
+}
+#lk_footer .right{
+	float: right;
+}
+#lk_footer .style a{
+	color: white;
+	line-height: 30px;
+}
+#lk_footer .font{
+	color: white;
+	margin-top: 30px;
+	border-left: 1px solid white;
+}
+
+/*回到顶部*/
+#top{
+	font-size: 30px;
+	border: 1px solid #000000;
+	position: fixed;
+	top: 450px;
+	right: 10px;
+	cursor: pointer;
+	display: none; 
+}
